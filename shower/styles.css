@@ -27,6 +27,10 @@
   font: 500 1em/1 Helvetica,sans-serif;
 }
 
+.slide ol li::before, .slide ul li::before {
+  color: currentColor;
+}
+
 .slide::after {
   background: none;
   color: #999;
@@ -88,4 +92,30 @@ img.cover {
 
 .warning h2:before {
   display: none;
+}
+
+.bigimg {
+  color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bigimg h2,
+.bigimg p,
+.bigimg ul {
+  color: currentColor;
+  background: rgba(0,0,0,0.4);
+  margin: 0;
+}
+
+.bigimg h2 {
+  padding: 1em 0.2em;
+}
+
+.bigimg p {
+  padding: 0 0.5em;
+}
+
+.bigimg ul {
+  padding: 0 1.5em;
 }
