@@ -1,0 +1,71 @@
+
+.shower.list {
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color: rgba(81, 207, 186, 0.7);
+  background-size: 16px 16px;
+}
+
+.progress {
+  border: 8px solid #333;
+      border-right-color: transparent;
+}
+
+.caption {
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  background: rgba(0,0,0,0.3);
+  padding-top: 1em;
+  margin-top: -1em;
+  margin-bottom: 1em;
+}
+
+.caption h1 {
+  font: 500 1em/1 Helvetica,sans-serif;
+}
+
+.slide::after {
+  background: none;
+  color: #999;
+}
+
+.shower.list .slide:target {
+  box-shadow: 0 0 0 1px rgba(0,0,0,.7),0 0 0 20px rgba(0,0,0,.5),0 20px 50px rgba(0,0,0,.3);
+}
+
+h2:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: rgba(81, 207, 186, 0.7);
+  margin-bottom: 10px;
+}
+
+#cover h2:before {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#cover h2 {
+  margin:30px 0 0;
+  color:#fff;
+  text-align:center;
+  font-size:70px;
+  background: rgba(0,0,0,0.3);
+}
+
+#cover p {
+  text-align:center;
+  color:#fff;
+  font-size:24px;
+  background: rgba(0,0,0,0.3);
+}
+
+img.cover {
+  width: 100%;
+  height: auto;
+}
