@@ -101,6 +101,7 @@ img.cover {
 .bigimg h2,
 .bigimg p,
 .bigimg ul,
+.bigimg ol,
 .bigimg blockquote {
   color: currentColor;
   background: rgba(0,0,0,0.4);
@@ -115,7 +116,8 @@ img.cover {
   padding: 0 0.5em;
 }
 
-.bigimg ul {
+.bigimg ul,
+.bigimg ol {
   padding: 0 1.5em;
 }
 
