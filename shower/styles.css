@@ -71,7 +71,7 @@ h2:before {
 
 img.cover {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .warning {
@@ -96,13 +96,12 @@ img.cover {
 
 .bigimg {
   color: #fff;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .bigimg h2,
 .bigimg p,
-.bigimg ul {
+.bigimg ul,
+.bigimg blockquote {
   color: currentColor;
   background: rgba(0,0,0,0.4);
   margin: 0;
@@ -118,4 +117,12 @@ img.cover {
 
 .bigimg ul {
   padding: 0 1.5em;
+}
+
+.bigimg blockquote {
+  padding: 0.5em 2em;
+}
+
+.slide p.note {
+  color: rgba(81, 207, 186, 1);
 }
