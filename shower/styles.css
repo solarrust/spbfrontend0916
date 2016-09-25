@@ -69,3 +69,23 @@ img.cover {
   width: 100%;
   height: auto;
 }
+
+.warning {
+  background: #c50404;
+  color: white;
+}
+
+.warning h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: currentColor;
+  font-size: 72px;
+}
+
+.warning a {
+  color: currentColor;
+}
+
+.warning h2:before {
+  display: none;
+}
